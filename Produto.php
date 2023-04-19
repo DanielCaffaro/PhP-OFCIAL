@@ -10,23 +10,6 @@
 </head>
 
 <body class="container">
-    <header class="mx-auto p-2">
-        <div class="d-flex align-items-center">
-            <div class="flex-shrink-0">
-                <img src="logo.png" alt="logo here">
-            </div>
-            <div class="flex-grow-1 ms-3 d-flex justify-content-evenly">
-                <a class="link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                    href="Principal">Principal</a>
-                <a class="link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                    href="Sobre">Sobre</a>
-                <a class="link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                    href="Contato">Contato</a>
-                <a class="link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-                    href="Produto.php">Produto</a>
-            </div>
-        </div>
-    </header>
     <table class="table table-striped mt-3">
         <thead class="table-dark">
             <tr>
@@ -40,8 +23,8 @@
             <?php
             $servername = "localhost";
             $username = "root";
-            $password = "root";
-            $dbname = "nike";
+            $password = "";
+            $dbname = "shoes";
 
 
 
@@ -49,9 +32,8 @@
             if ($conn->connect_error) {
                 die("connection failed: " . $conn->connect_error);
             }
-            $sql = "SELECT * FROM nike";
+            $sql = "SELECT * FROM shoes";
             $result = $conn->query($sql);
-            
             while ($row = $result->fetch_assoc()) {
                 echo ("<tr><td>" . $row["idshoes"] . "</td><td>" . $row["name"] . "</td>" .
                     "<td>" . $row["price"] . "</td>");
