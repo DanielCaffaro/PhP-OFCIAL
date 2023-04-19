@@ -23,8 +23,8 @@
             <?php
             $servername = "localhost";
             $username = "root";
-            $password = "";
-            $dbname = "shoes";
+            $password = "root";
+            $dbname = "nike";
 
 
 
@@ -32,7 +32,7 @@
             if ($conn->connect_error) {
                 die("connection failed: " . $conn->connect_error);
             }
-            $sql = "SELECT * FROM shoes";
+            $sql = "SELECT * FROM nike";
             $result = $conn->query($sql);
             while ($row = $result->fetch_assoc()) {
                 echo ("<tr><td>" . $row["idshoes"] . "</td><td>" . $row["name"] . "</td>" .
