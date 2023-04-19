@@ -10,13 +10,23 @@
 </head>
 
 <body class="container">
-    <img src="logo.png" alt="logo here">
-        <nav class="navigation">
-            <a href="Principal">Principal</a>
-            <a href="Sobre">Sobre</a>
-            <a href="Contato">Contato</a>
-            <a href="http://localhost/my-app/Produto.php">Produto</a>
-        </nav>
+    <header class="mx-auto p-2">
+        <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">
+                <img src="logo.png" alt="logo here">
+            </div>
+            <div class="flex-grow-1 ms-3 d-flex justify-content-evenly">
+                <a class="link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="Principal">Principal</a>
+                <a class="link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="Sobre">Sobre</a>
+                <a class="link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="Contato">Contato</a>
+                <a class="link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="Produto.php">Produto</a>
+            </div>
+        </div>
+    </header>
     <table class="table table-striped mt-3">
         <thead class="table-dark">
             <tr>
