@@ -10,6 +10,13 @@
 </head>
 
 <body class="container">
+    <img src="logo.png" alt="logo here">
+        <nav class="navigation">
+            <a href="Principal">Principal</a>
+            <a href="Sobre">Sobre</a>
+            <a href="Contato">Contato</a>
+            <a href="http://localhost/my-app/Produto.php">Produto</a>
+        </nav>
     <table class="table table-striped mt-3">
         <thead class="table-dark">
             <tr>
