@@ -3,14 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 20vh;
-    background: rgb(17, 17, 17);
     background-size: cover;
     background-position: center;
 }
@@ -25,6 +23,7 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 880;
+    box-sizing: content-box;
     
 }
 .Logo{
