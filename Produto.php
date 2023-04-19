@@ -41,6 +41,7 @@
             }
             $sql = "SELECT * FROM nike";
             $result = $conn->query($sql);
+            
             while ($row = $result->fetch_assoc()) {
                 echo ("<tr><td>" . $row["idshoes"] . "</td><td>" . $row["name"] . "</td>" .
                     "<td>" . $row["price"] . "</td>");
