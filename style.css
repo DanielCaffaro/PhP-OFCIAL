@@ -58,3 +58,7 @@ transition: transform .5s;
 .navigation a:hover::after {
     transform: scaleX(1);
 }
+h1{
+color: white;
+
+}
