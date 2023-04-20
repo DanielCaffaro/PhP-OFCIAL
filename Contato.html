@@ -32,24 +32,56 @@
         </div>
     </header>
 
-    <div id="main">
+    <div id="main" class="my-2 pb-5">
         <h1 class="pb-3 fw-bold">Nossas redes sociais</h1>
         <p class="fs-5">
-            <a class="type=button btn btn-secondary text-white text-uppercase fs-5 link-offset-2 link-offset-1-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+            <a class="type=button btn btn-outline-light text-uppercase fs-5 link-offset-2 link-offset-1-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
                 href="https://www.facebook.com/nike">Facebook</a>
-            <a class="type=button btn btn-secondary text-white text-uppercase fs-5 link-offset-2 link-offset-1-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+            <a class="type=button btn btn-outline-light text-uppercase fs-5 link-offset-2 link-offset-1-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
                 href="https://twitter.com/nike">Twitter</a>
-            <a class="type=button btn btn-secondary text-white text-uppercase fs-5 link-offset-2 link-offset-1-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+            <a class="type=button btn btn-outline-light text-uppercase fs-5 link-offset-2 link-offset-1-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
                 href="https://www.instagram.com/nike/">Instagram</a>
-            <a class="type=button btn btn-secondary text-white text-uppercase fs-5 link-offset-2 link-offset-1-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+            <a class="type=button btn btn-outline-light text-uppercase fs-5 link-offset-2 link-offset-1-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
                 href="https://www.youtube.com/user/nike">YouTube</a>
-            <a class="type=button btn btn-secondary text-white text-uppercase fs-5 link-offset-2 link-offset-1-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+            <a class="type=button btn btn-outline-light text-uppercase fs-5 link-offset-2 link-offset-1-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
                 href="https://www.pinterest.com/nike/">Pinterest</a>
         </p>
-            <p> <h2> São as principais redes sociais da Nike, onde a marca compartilha seus produtos, histórias
+        <p>
+        <h2> São as principais redes sociais da Nike, onde a marca compartilha seus produtos, histórias
             inspiradoras, eventos e iniciativas de responsabilidade social. Você pode acompanhar a Nike em suas redes
             sociais para obter inspiração, novidades sobre lançamentos de produtos, promoções e muito mais.</h2>
         </p>
+    </div>
+    <script>function sendMail() {
+            let name = document.getElementById("nome"),
+                mail = document.getElementById("mail");
+
+            if (name.value.trim() == "") {
+                alert("O nome é obrigatório"); return false;
+            }
+            if (mail.value.trim() == "") {
+                alert("O Email é obrigatório"); return false;
+            }
+            return true;
+        }</script>
+    <div class="news">
+
+        <h2 class="my-2 pb-3">Não perca nenhum lançamento</h2>
+        <form class=" mx-auto align-items-start" action="mailto:${mail}" method="post" onsubmit="return sendMail()">
+            <div class="my-3 w-25">
+                <label for="nome" class="form-label fs-6 fw-bold">Nome</label>
+                <input type="text" class="form-control bg-black text-light" id="nome">
+            </div>
+
+            <div class="my-3 w-25">
+                <label for="mail" class="form-label fs-6 fw-bold">Email</label>
+                <input type="email" class="form-control bg-black text-light" id="mail" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text text-light">Não vamos compartilhar seu email com ninguém.</div>
+            </div>
+
+            <button type="submit" class="btn btn-outline-light btn-lg fw-bolder fs-4 mt-4 ml-3">Submit</button>
+        </form>
+    </div>
     </div>
 </body>
 
