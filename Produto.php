@@ -18,12 +18,12 @@
             <div class="flex-grow-1 ms-3 d-flex justify-content-evenly">
                 <a class="text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
                     href="principal.html">Principal</a>
-                <a  class=" text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
-                    href="Sobre">Sobre</a>
+                <a class=" text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="sobre.html">Sobre</a>
                 <a class="text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
-                    href="Contato">Contato</a>
+                    href="contato.html">Contato</a>
                 <a class="text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
-                    href="http://localhost/Produto.php">Produto</a>
+                    href="produto.php">Produto</a>
             </div>
         </div>
     </header>
