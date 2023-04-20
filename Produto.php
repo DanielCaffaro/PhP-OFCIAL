@@ -10,7 +10,7 @@
 </head>
 
 <body class="container">
-<header class="mx-auto p-2 mb-5">
+<header class="mx-auto p-2 mb-5 bg-black text-white">
         <div class="d-flex align-items-center">
             <div class="img-fluid  flex-shrink-0">
                 <img src="logo.png" class="w-25 p-3" alt="logo here">
