@@ -17,15 +17,15 @@
             </div>
             <div class="flex-grow-1 ms-3 d-flex justify-content-evenly">
                 <a class="text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
-                    href="principal.html">Principal</a>
+                    href="http://localhost/PhP-OFCIAL/principal.html">Principal</a>
                 <a class="text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
-                    href="novidades.html">Novidades</a>
+                    href="http://localhost/PhP-OFCIAL/novidades.html">Novidades</a>
                 <a class=" text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
-                    href="sobre.html">Sobre</a>
+                    href="http://localhost/PhP-OFCIAL/sobre.html">Sobre</a>
                 <a class="text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
-                    href="contato.html">Contato</a>
+                    href="http://localhost/PhP-OFCIAL/contato.html">Contato</a>
                 <a class="text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
-                    href="produto.php">Produto</a>
+                    href="http://localhost/PhP-OFCIAL/produto.php">Produto</a>
             </div>
         </div>
     </header>
