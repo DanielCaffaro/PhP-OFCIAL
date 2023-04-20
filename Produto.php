@@ -10,6 +10,23 @@
 </head>
 
 <body class="container">
+<header class="mx-auto p-2 mb-5">
+        <div class="d-flex align-items-center">
+            <div class="img-fluid  flex-shrink-0">
+                <img src="logo.png" class="w-25 p-3" alt="logo here">
+            </div>
+            <div class="flex-grow-1 ms-3 d-flex justify-content-evenly">
+                <a class="text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="principal.html">Principal</a>
+                <a  class=" text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="Sobre">Sobre</a>
+                <a class="text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="Contato">Contato</a>
+                <a class="text-white text-uppercase fw-bolder fs-5 link-offset-2 link-offset-2-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="http://localhost/myPrograms/Produto.php">Produto</a>
+            </div>
+        </div>
+    </header>
     <table class="table table-striped mt-3">
         <thead class="table-dark">
             <tr>
